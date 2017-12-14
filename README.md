@@ -44,7 +44,8 @@ swiper.js, swiper官方文档已经十分清楚，不在赘述.
 ```
 <div class="swiper-container">
   <div class="swiper-wrapper">
-    <div class="swiper-slide"></div>
+    <div class="swiper-slide">page1</div>
+    <div class="swiper-slide">page2</div>
   </div>
 </div>
 <script>
