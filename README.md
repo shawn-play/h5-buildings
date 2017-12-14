@@ -49,8 +49,8 @@ swiper.js, swiper官方文档已经十分清楚，不在赘述.
 </div>
 <script>
 var mySwiper = new Swiper('.swiper-container', {
-	direction: 'vertical',
-	loop: false
+  direction: 'vertical',
+  loop: false
 });
 //禁止swiper滑动翻页
 mySwiper.detachEvents();
