@@ -75,3 +75,5 @@ $(selector).on('click', function() {
 })
 </script>
 ```
+
+# 注意， 对wow.js源码做了改动，使用bower等安装的会有不刷新动画的问题
