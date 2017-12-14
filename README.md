@@ -46,6 +46,13 @@ wow.js, wow.js通过dom上的data-wow-*属性来控制动画，而这些 * 属�
 
 swiper.js, swiper官方文档已经十分清楚，不在赘述.
 ```
+<style>
+html, body,
+.swiper-container,
+.swiper-slide {
+  height: 100%;
+}
+</style>
 <div class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide">page1</div>
