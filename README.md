@@ -3,7 +3,7 @@
 
 ## 先看一个基于此项目开发的[一个案例](http://eomanager.catcherchina.com/)
 此项的目的是，结合wow和swiper搭建一个能够快速开发上线静态H5项目的前端开发环境，提高效率
-###### 1.关于animate.css,wow.js和swiper.js
+### 1. 关于animate.css,wow.js和swiper.js
 *animate.css*是一个开源的包含了很多css3关键帧动画的库样式表，你可以在其官网上查到很多的动画效果，完全能满足一般H5页面的动画效果。
 
 
@@ -11,7 +11,7 @@
 
 
 *swiper.js*应用非常广泛的轮播库，功能十分的强大，几乎能满足所有H5的切换需求、事件响应等等。
-###### 2.在组织代码之前，先掌握以下基本用法
+### 2. 在组织代码之前，先掌握以下基本用法
 
 
 animate.css, 先看一段aniamte支持的css3动画的代码
