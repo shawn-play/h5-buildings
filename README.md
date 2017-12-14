@@ -53,12 +53,16 @@ html, body,
   height: 100%;
 }
 </style>
+```
+```
 <div class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide">page1</div>
     <div class="swiper-slide">page2</div>
   </div>
 </div>
+```
+```
 <script>
 var mySwiper = new Swiper('.swiper-container', {
   direction: 'vertical',
