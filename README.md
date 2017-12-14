@@ -56,12 +56,10 @@ var mySwiper = new Swiper('.swiper-container', {
 mySwiper.detachEvents();
 $(selector).on('click', function() {
   //翻页时调用wow，重置帧动画
-	new WOW().init();
-	setTimeout(function () {
-    //异步，保证翻页后，帧动画被重置
-		mySwiper.slideNext();
+  new WOW().init();
+  setTimeout(function () {//异步，保证翻页后，帧动画被重置
+    mySwiper.slideNext();
   },0)
 })
 </script>
 ```
-#项目结构
